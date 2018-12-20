@@ -1,0 +1,123 @@
+body {
+    background-image: url("tile.jpg");
+    
+}
+.container{
+margin-left:243px;
+}
+.tododiv{
+        position: absolute;
+        width: 110px;
+        height: 110px;
+        overflow: auto;
+        margin-top:28px;
+}
+
+.asigment{
+    background-image: url("notebg.png"); 
+    height: 300px;
+    background-repeat: no-repeat;
+    width: 50px;
+    opacity: 1;
+}
+.addbox{
+    background-image: url("formbg.jpg"); 
+    width: 920px;
+    height: 150px;
+    margin: 20px;
+}
+.whattodo{
+    margin: 10px;
+}
+.date{
+    margin: 10px;
+    margin-left:4px;
+}
+
+#todo{
+    position: absolute;
+    margin-left:20px;
+    margin-bottom:3px;
+    top:137px; 
+}
+
+#date{
+    position: absolute;
+    margin-left:68px;
+    top:170px;
+}
+
+#time{
+    position: absolute;
+    margin-left:62px;
+    padding-right: 76px;
+    top:204px;
+}
+.timelable{
+    margin-left:11px;
+}
+.addbutton{
+    margin-left:333px;
+    margin-top: 13px;
+}
+.inputsform{
+    margin-left:82px;
+}
+input{
+    background-color: transparent;
+    border:solid gray 1px;
+    border-radius: 7px;
+}
+
+
+
+#title{ 
+     background-image: url("title.png"); 
+     height: 100px;
+     width: 300px;
+     background-repeat: no-repeat;
+     margin-left:350px;
+}
+
+p{
+    margin-top:100px;
+}
+
+.todospan{
+    margin-top:30px;
+
+}
+
+i{
+    position: absolute;
+    margin-top:18px;
+    margin-left:-9px; 
+    cursor: pointer
+}
+
+.fadeIn:last-child{
+    -webkit-animation: fi 1s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fi 1s; /* Firefox < 16 */
+     -ms-animation: fi 1s; /* Internet Explorer */
+      -o-animation: fi 1s; /* Opera < 12.1 */
+         animation: fi 1s;
+}
+
+@keyframes fi {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.hide{
+    -webkit-animation:  fo 1s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation:  fo 1s; /* Firefox < 16 */
+     -ms-animation:  fo 1s; /* Internet Explorer */
+      -o-animation:  fo 1s; /* Opera < 12.1 */
+         animation:  fo 1s;
+  }
+@keyframes fo {
+    from {opacity: 1;}
+    to   {opacity: 0;}
+  }
+ 
+
